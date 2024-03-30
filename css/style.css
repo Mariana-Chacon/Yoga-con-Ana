@@ -202,7 +202,7 @@ a{
 /* Backgrounds */
 
 .bk-showcase {
-    background: url(recourse/baner.png) rgba(0, 0, 0, 0.635);
+    background: url(/recourse/baner.png) rgba(0, 0, 0, 0.635);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

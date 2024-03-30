@@ -1,3 +1,14 @@
+/*Nav mobile*/
+function myMenu() {
+	var x = document.getElementById('myLinks');
+	if (x.style.display === 'block') {
+		x.style.display = 'none';
+	} else {
+		x.style.display = 'block';
+	}
+}
+
+/*Carrusel*/
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
